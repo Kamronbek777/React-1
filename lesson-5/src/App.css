@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  margin-left: 480px;
+}
+
+/* Header */
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #ffcf33, #ff9433);
+  padding: 15px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+}
+
+.legendary-status {
+  display: flex;
+  flex-direction: column;
+}
+
+.legendary-text {
+  font-weight: bold;
+}
+
+.legendary-level {
+  font-size: 12px;
+}
+
+.profit-info {
+  text-align: right;
+}
+
+.profit-per-hour {
+  display: block;
+  font-size: 12px;
+}
+
+.profit-amount {
+  font-weight: bold;
+} */
+.legendary-status {
+  display: flex;
+  align-items: center;
+}
+
+.legendary-text {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.legendary-level {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--rank-bgcolor);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* define the ranks and their corresponding bgcolors */
+:root {
+  --rank-1-bgcolor: #8bc34a;
+  --rank-2-bgcolor: #66bb6a;
+  --rank-3-bgcolor: #4caf50;
+  --rank-4-bgcolor: #3e8e41;
+  --rank-5-bgcolor: #2e6c31;
+  --rank-6-bgcolor: #1b5e20;
+  --rank-7-bgcolor: #146c15;
+  --rank-8-bgcolor: #0f5415;
+  --rank-9-bgcolor: #0a3d10;
+  --rank-10-bgcolor: #063515;
+}
+
+
+/* Daily Tasks */
+.daily-tasks {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #292929;
+  padding: 15px;
+  border-radius: 15px;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.task img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-time {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+
+/* Balance */
+.balance {
+  margin: 20px 0;
+}
+
+.balance-amount {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* Clicker */
+.clicker {
+  position: relative;
+  background-color: #333;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.clicker img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.clicker-text {
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  color: #888;
+}
+
+.boosting {
+  color: #0f0;
+}
+
+/* Boost Info */
+.boost-info {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 400px;
+  align-items: center;
+}
+
+.energy-count {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.boost-button {
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.boost-button:hover {
+  background-color: #357ae8;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.footer-button {
+  background-color: #292929;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-button img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.footer-button:hover {
+  background-color: #383838;
+}
